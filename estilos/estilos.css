@@ -1,0 +1,115 @@
+/* Estilo de fondo para el cuerpo utilizando un degradado lineal de derecha a izquierda */
+body {
+    background: linear-gradient(to right, #FF9671, #FFC75F);
+}
+
+/* Estilo para los elementos <h2> */
+h2 {
+    font-family: 'Segoe UI'; /* Tipo de fuente para h2 */
+    font-style: italic; /* Estilo de fuente cursiva para h2 */
+}
+
+/* Estilo para los elementos de lista, eliminando los marcadores de lista predeterminados */
+li {
+    list-style-type: none; /* Elimina los marcadores de lista */
+}
+
+/* Estilo para los enlaces, eliminando el subrayado predeterminado */
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+/* Estilo para los elementos <audio> */
+audio {
+    width: 75%; /* Ancho del elemento audio al 75% del contenedor */
+    background-color: #4225c4; /* Color de fondo */
+    padding: 15px; /* Espaciado interno */
+    border: 4px solid black;  /* Color del borde */
+    border-radius: 10px; /* Borde redondeado */
+}
+/* Estilo para los elementos <video> */
+video {
+    width: 75%; /* Ancho del elemento video al 100% del contenedor */
+    max-width: 800px; /* Ancho máximo para evitar que el video se agrande demasiado */
+    height: auto; /* Altura automática para mantener la proporción original */
+    display: block; /* Hace que el elemento video se comporte como un bloque */
+    margin: 0 auto;  /* Centra el elemento video horizontalmente */
+    border: 2px solid #17066a;  /* Borde */
+    border-radius: 25px; /* Bordes redondeados */
+}
+/* Estilo para los elementos <table> */
+table {
+    width: 75%;  /* Ancho al 100% del contenedor */
+    border-collapse: separate;  /* Separar los bordes de las celdas */
+    margin-bottom: 20px; /* Margen inferior para separar de otros elementos */
+    font-family: 'Franklin Gothic Medium'; /* Tipo de fuente para el texto */
+    color: darkslateblue; /* Color del texto */
+    font-weight: bolder; /* Grosor de la fuente */
+}
+
+/* Estilo para las celdas de datos */
+td {
+    padding: 10px; /* Espaciado interno en las celdas de datos */
+    border: 2px solid #1531ce; /* Borde de celda */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilo para filas impares */
+tr:nth-child(odd) {
+    background-color: #ea7add; /* Color de fondo para filas impares */
+}
+
+/* Estilo de color para los enlaces dentro del elemento con el id "aside" */
+#aside a {
+    color: #eb4b00;
+}
+
+/* Estilos generales para elementos con la clase "links" */
+.links {
+    font-family: system-ui; /* Tipo de fuente */
+    font-size: 18px; /* Tamaño de fuente */
+    color: #4B4453; /* Color del texto */
+    font-weight: 1000; /* Grosor de la fuente */
+}
+
+/* Estilo para enlaces visitados dentro de elementos con la clase "links" */
+.links a:visited {
+    color: #c42587;
+}
+
+/* Estilo para enlaces al pasar el ratón por encima dentro de elementos con la clase "links" */
+.links a:hover {
+    color: #1E335B;
+}
+
+/* Estilo de color para el elemento con el id "title" */
+#title {
+    color: #3609c8;
+    font-family: Helvetica; /* Tipo de fuente */
+    font-weight: 1000; /* Grosor de la fuente */
+}
+
+/* Estilo para el elemento con el id "title_paginaweb" */
+#title_paginaweb {
+    font-weight: 1000; /* Grosor de la fuente */
+    font-family: Times; /* Tipo de fuente */
+    font-size: 48px; /* Tamaño de fuente */
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    /* Tamaño de la primera letra */
+    color: #3609c8;
+    /* Color de la primera letra */
+    font-weight: bold;
+    /* Peso de la fuente de la primera letra */
+    margin-right: 2px;
+    /* Espacio a la derecha de la primera letra */
+}
+
+/* Agrega una línea horizontal después de cada párrafo */
+p::after {
+    content: "";
+    display: block;
+    border-top: 2px solid rgb(105, 0, 204); /* Color de la línea horizontal */
+    margin-top: 5px; /* Espacio entre el párrafo y la línea horizontal */
+}
